@@ -62,7 +62,7 @@ which are the true optimal value.
 
 For each smoothing technique, allocation rule, total budget, and the corresponding allocation, the raw relative optimality gaps for 100 replications (each replication evaluated at 100 test covariates) are saved using:
 
-save_path = os.path.join(save_dir, str(Gamma) + '' + str(n) + '' + str(T) + '.npy')
+`save_path = os.path.join(save_dir, str(Gamma) + '' + str(n) + '' + str(T) + '.npy')`
 
 Inside save_dir, a file named results.csv is created, which contains the columns:
 Gamma, n, T, average, sd, min, max
